@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.DetalleProducto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDetalle_CODPRODUCTO_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/tvDetalle_CODPRODUCTO_out"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_CODPRODUCTO_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_NOMBRE_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/tvDetalle_NOMBRE_out"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_NOMBRE_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_PRECIO_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/tvDetalle_PRECIO_out"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_PRECIO_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_STOCK_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/tvDetalle_STOCK_out"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_STOCK_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/tvDetalle_FOTO_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="@string/tvDetalle_FOTO_out"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tvDetalle_FOTO_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btDetalle_Editar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:text="@string/btDetalle_Editar"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

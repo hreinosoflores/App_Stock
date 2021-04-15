@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controllers.EditarProducto">
+
+    <Button
+        android:id="@+id/btEditar_Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptEditar_STOCK_in"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/btEditar_Editar" />
+
+    <EditText
+        android:id="@+id/ptEditar_STOCK_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_STOCK_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ptEditar_PRECIO_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_PRECIO_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/ptEditar_NOMBRE_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_NOMBRE_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvEditar_STOCK_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptEditar_PRECIO_in"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/tvEditar_STOCK_out"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvEditar_PRECIO_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ptEditar_NOMBRE_in"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/tvEditar_PRECIO_out"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvEditar_Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="@string/tvEditar_Titulo"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEditar_NOMBRE_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_FOTO_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="@string/tvEditar_NOMBRE_out"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/tvEditar_CODPRODUCTO_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_Titulo"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:id="@+id/tvEditar_FOTO_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEditar_CODPRODUCTO_out"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp" />
+
+
+</RelativeLayout>

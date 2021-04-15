@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">STOCK</string>
+
+    <!--login-->
+    <string name="tvLogin_Titulo">Ingresar el sistema</string>
+    <string name="ivLogin_Foto">Login Foto</string>
+    <string name="ptLogin_IDLOGIN_in">Escriba su id de usuario</string>
+    <string name="ptLogin_PASSWORD_in">Escriba su clave de usuario</string>
+    <string name="btLogin_Ingresar">Ingresar</string>
+
+
+    <!--lista_producto-->
+    <string name="tvLista_Titulo">Listado de nuestros productos</string>
+    <string name="btLista_Registrar">Registrar Nuevo Producto</string>
+    <string name="ivLista_Item_FOTO">Imagen del producto</string>
+    <string name="tvLista_Item_STOCK_out">Stock disponible: </string>
+
+
+    <!--registrar_producto-->
+    <string name="tvRegistrar_Titulo">Registro de producto</string>
+    <string name="tvRegistrar_NOMBRE_out">Nombre</string>
+    <string name="tvRegistrar_PRECIO_out">Precio Unidad</string>
+    <string name="tvRegistrar_STOCK_out">Stock Inicial</string>
+    <string name="btRegistrar_Registrar">Registrar</string>
+
+
+    <!--detalle_producto-->
+    <string name="tvDetalle_CODPRODUCTO_out">Código: </string>
+    <string name="tvDetalle_NOMBRE_out">Nombre: </string>
+    <string name="tvDetalle_PRECIO_out">Precio Unidad: </string>
+    <string name="tvDetalle_STOCK_out">Stock Disponible:  </string>
+    <string name="tvDetalle_FOTO_out">Foto: </string>
+    <string name="btDetalle_Editar">EDITAR INFORMACIÓN</string>
+
+
+    <!--editar_producto-->
+    <string name="tvEditar_Titulo">Actualización de datos</string>
+    <string name="tvEditar_CODPRODUCTO_out">Código</string>
+    <string name="tvEditar_NOMBRE_out">Nombre</string>
+    <string name="tvEditar_PRECIO_out">Precio Unidad</string>
+    <string name="tvEditar_STOCK_out">Stock Actual</string>
+    <string name="btEditar_Editar">Guardar Cambios</string>
+
+
+</resources>
